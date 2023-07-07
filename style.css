@@ -1,0 +1,304 @@
+@import url('https://fonts.googleapis.com/css2?family=Rancho&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rancho&family=Source+Code+Pro:wght@200;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rancho&family=Source+Code+Pro:wght@200;400&display=swap');
+*{
+       margin: 0px;
+}
+:root{
+       color:#F8B195 ;
+       color: #F67280 ;
+       color: #C06C84;
+       color:  #6C5B7B ;
+       color: #355C7D ;
+       
+ 
+}
+ 
+.navbar { 
+       position: fixed; 
+       top: 0; 
+       left: 0; 
+       z-index: 9999;
+       width: 100%;
+       height: 50px; 
+       background-color: #54738e;
+}
+body{
+       margin:0%;
+       padding: 0%;
+       background-color:  #54738e;
+}
+.navlogo{
+       display: flex;
+       text-decoration: none;
+       font-family: 'Rancho', cursive;
+       font-size: 25px;
+       margin: 10px;
+       color: #cac6e1;
+
+}
+#toggledark{
+     font-size: 30px;
+     cursor: pointer;
+     display: flex;
+     width: 0px;
+     top:40%;
+     left: 90%;
+     position: absolute;
+     margin: auto;
+     transform: translate(-50%, -50%);
+     color: #cac6e1;
+
+}
+.navi{
+       text-decoration: none;
+       padding: 10px;
+       align-items: center;
+       justify-content: center;
+       display:flexbox;
+       margin: auto;
+       text-align: center;
+       
+}
+div{
+       justify-content: center;
+       align-items: center;
+       text-align: center;
+       right: 50%;
+}
+.intro{
+       align-items: center;
+       justify-content: center;
+       text-align: center;
+       margin: auto;
+       color:black ;
+}
+.name{
+       color: #cac6e1;
+       align-items: center;
+       justify-content: center;
+       text-align: center;
+       font-family: 'Rancho', cursive;
+       font-size: 80px;
+}
+
+.bi-house-door-fill{
+       padding: 05px;
+       font-size: 25px;
+       background-color:transparent;
+       display:flexbox;
+       width: 100%;
+       align-items:center;
+       text-align: center;
+       justify-content: center;
+       color: #cac6e1;
+}
+.bi-person-circle{
+       padding: 20px;
+       font-size: 25px;
+       background-color:transparent;
+       display: flexbox;
+       width: 100%;
+       align-items: center;
+       text-align: center;
+       justify-content: center;
+       color: #cac6e1;
+}
+.bi-bookmark-fill{ 
+       padding: 20px;
+       font-size: 25px;
+       background-color:transparent;
+       display: flexbox;
+       width: 100%;
+       align-items: center;
+       text-align: center;
+       justify-content: center;
+       color: #cac6e1;
+}
+.bi-chat-left-text-fill{
+       padding: 20px;
+       font-size: 25px;
+       background-color:transparent;
+       display: flexbox;
+       width: 100%;
+       align-items: center;
+       text-align: center;
+       justify-content: center;
+       color: #cac6e1;
+}
+#profile{
+       font-size: 20px;
+       color:black;
+       text-align: center;
+       width:50%;
+       justify-content:center;
+       align-items: center;
+       background-color:transparent;
+       margin: auto ;
+}
+.cv{
+       font-size: 20px;
+
+       text-decoration: none;
+       padding: 10px;
+       margin: 20px 10px;
+       background-color:transparent ;
+       border-radius: 10px;
+       display: flexbox;
+       border: 2px solid  #355C7D;
+       color: #355C7D;
+}
+.aboutme{
+       font-size: 20px;
+       color: black;
+       text-decoration: none;
+       padding: 10px;
+       margin: 0%;
+       border-radius: 10px;
+       display: flexbox;
+      background-color:  #355C7D;
+      border: 2px solid  #355C7D; 
+}
+.about{
+       text-align: center;
+       font-family: 'Source Code Pro', monospace;
+       color: black;
+       font-weight:bolder;
+}
+.content{
+       box-sizing: border-box;
+       width: 100%;
+       height:auto;
+}
+.container{
+       display: flex;
+       justify-content: center;
+       align-items: center;
+       min-height: 400px;
+}
+.container div{
+       height: 200px;
+       width: 335px;
+       margin: 60px;
+       text-align: center;
+       background-color: #355C7D ;
+       border-radius: 20px;
+       color: #cac6e1;
+       padding: 20px 10px;
+}
+.container h4{
+       color: black;
+}
+.objective{
+       text-align: center;
+       width: 50%;
+       margin: auto;
+       
+}
+.edu{
+       display: flex;
+       justify-content: center;
+       align-items: center;
+       min-height: 400px;
+       margin: auto;
+       padding: 20px 10px;
+       
+
+}
+.edu div{
+       height: 200px;
+       width: 335px;
+       margin: 60px;
+       text-align: center;
+       background-color:transparent ;
+       color: #cac6e1;
+       padding: 20px 10px;
+}
+/*.vl{
+       border-left: 2px solid black;
+       height: 150px;
+       position: absolute;
+       left: 50%;
+       margin-left: -3px;
+       top: 175%;
+     }*/
+.list{
+       display: flex;
+       justify-content: center;
+       align-items: center;
+       min-height: 400px;
+       }
+.list div{
+       height: 390px;
+       width: 170px;
+       margin: 50px;
+       text-align: center;
+       background-color: #355C7D ;
+       border-radius: 500px;
+       color: #cac6e1;
+       padding: 20px 10px;
+       }
+.list h4{
+       color: black;
+}
+.contact{
+       display: flex;
+       justify-content: center;
+       align-items:center;
+       min-height: 400px;
+}
+.contact div{
+       height: 500px;
+       width: 500px;
+       margin: 60px;
+       text-align: center;
+       background-color: #355C7D ;
+       border-radius: 20px;
+       color: #cac6e1;
+       padding: 20px 10px;
+}
+.submit{
+       background-color:#cac6e1;
+       border: 0px solid #cac6e1;
+       border-radius:100px ;
+       font-size: 16px;
+       padding: 10px 32px;
+}
+.bi-linkedin{
+       color:#C06C84;
+       font-size: 30px;
+       padding: 10px 10px;
+}
+.bi-github{
+       color:#C06C84;
+       font-size: 30px;
+       padding: 10px 10px;
+}
+.bi-envelope-fill{
+       color:#C06C84;
+       font-size: 30px;
+       padding: 10px 10px;
+}
+.home-foot{
+       text-decoration: none;
+       font-size: 20px;
+       padding: 10px 10px;
+       color: #cac6e1;
+}
+.about-foot{
+       text-decoration: none;
+       font-size: 20px;
+       padding: 10px 10px;
+       color: #cac6e1;
+}
+.cont{
+       background-color:#355C7D;
+       height: 300px;
+}
+.conference{
+       background-color: #355C7D;
+       width: 20%;
+       margin:auto;
+       height: 250px;
+       border-radius: 50px;
+}
